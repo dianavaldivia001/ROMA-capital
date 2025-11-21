@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html">ROMA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link active" href="historia.html">Historia</a></li>
+              <li class="nav-item"><a class="nav-link" href="geografia.html">Geografía y Cultura</a></li>
+              <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares Emblemáticos</a></li>
+              <li class="nav-item"><a class="nav-link" href="vida.html">Vida Actual</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mt-5 pt-5 text-light">
+      <h1 class="text-center mb-4">Historia y Evolución de Roma</h1>
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <img src="https://experienciasviajeras.blog/wp-content/uploads/2019/06/La-leyenda-de-R%C3%B3mulo-y-Remo.jpg" class="img-fluid rounded shadow" alt="Fundación de Roma" width="500">
+        </div>
+        <div class="col-md-6">
+          <h2 id="fundacion" class="text-warning">Fundación y hechos históricos relevantes</h2>
+          <p>Roma fue fundada, según la leyenda, por Rómulo y Remo en el año 753 a.C. Desde entonces, se convirtió en el corazón de una de las civilizaciones más influyentes de la historia. Durante siglos, fue el centro del Imperio Romano, que abarcó gran parte de Europa, Asia y África.</p>
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-5 flex-md-row-reverse">
+        <div class="col-md-6">
+          <img src="https://i.pinimg.com/originals/c5/22/2a/c5222aa07815a75f69ec080f07c81270.jpg" alt="Senado romano" width="500">
+        </div>
+        <div class="col-md-6">
+          <h2 class="text-warning">Cambios políticos y sociales importantes</h2>
+          <p>Roma pasó por diferentes formas de gobierno: la monarquía, la república y el imperio. En cada etapa, su sociedad evolucionó con leyes, infraestructura avanzada y un sistema político que inspiró a las democracias modernas.</p>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-md-12 text-center">
+          <h2 class="text-warning">Personajes históricos vinculados a Roma</h2>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light">
+            <img src="https://napoleon.life/img/caesar_coustou.jpg" class="card-img-top" alt="Julio César">
+            <div class="card-body">
+              <h5 class="card-title">Julio César</h5>
+              <p class="card-text">General y político romano, clave en la transición de la República al Imperio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light">
+            <img src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photos/4286356/emperador.jpg" class="card-img-top" alt="Augusto">
+            <div class="card-body">
+              <h5 class="card-title">Augusto</h5>
+              <p class="card-text">Primer emperador romano, consolidó la paz y la estabilidad del Imperio.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light">
+            <img src="https://cdn.ethnos.gr/imgHandler/875/82cce995-3d4e-44b8-a83b-6e04a58aa786.jpg" class="card-img-top" alt="Constantino">
+            <div class="card-body">
+              <h5 class="card-title">Constantino</h5>
+              <p class="card-text">Primer emperador en adoptar el cristianismo y fundador de Constantinopla.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="text-center mb-3 text-warning">Cronología de Roma</h3>
+      <div class="table-responsive">
+        <table class="table table-dark table-striped table-bordered">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Evento</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>753 a.C.</td><td>Fundación de Roma</td></tr>
+            <tr><td>509 a.C.</td><td>Inicio de la República</td></tr>
+            <tr><td>27 a.C.</td><td>Inicio del Imperio Romano bajo Augusto</td></tr>
+            <tr><td>476 d.C.</td><td>Caída del Imperio Romano de Occidente</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="text-center mt-5">
+        <a href="index.html" class="btn btn-outline-light">← Volver al inicio</a>
+        <a href="geografia.html" class="btn btn-outline-light ms-2">Geografía y Cultura →</a>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-light text-center p-3 mt-5">
+      <p class="mb-0">Roma | Diana Valdivia</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

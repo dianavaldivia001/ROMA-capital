@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+       <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html">ROMA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+              <li class="nav-item"><a class="nav-link" href="geografia.html">Geografía y Cultura</a></li>
+              <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares Emblemáticos</a></li>
+              <li class="nav-item"><a class="nav-link active" href="vida.html">Vida Actual</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container mt-5 pt-5 text-light">
+      <h1 class="text-center mb-4">Vida Actual y Curiosidades</h1>
+
+      <div class="row text-center mb-5">
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light">
+            <div class="card-body">
+              <h5 class="card-title">Economía y Transporte</h5>
+              <p>Roma es un centro económico y político importante, con un sistema de metro y buses que conectan toda la ciudad.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light">
+            <div class="card-body">
+              <h5 class="card-title">Educación y Cultura</h5>
+              <p>Posee universidades reconocidas mundialmente y es cuna de arte, diseño, historia y arquitectura.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card bg-dark text-light border-light">
+            <div class="card-body">
+              <h5 class="card-title">Curiosidades</h5>
+              <p>Roma tiene más de 900 iglesias y una ciudad entera (el Vaticano) dentro de su territorio.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mb-5">
+        <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#videoRoma">Ver video de Roma actual</button>
+      </div>
+      <div class="modal fade" id="videoRoma" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content bg-dark text-light">
+            <div class="modal-header border-0">
+              <h5 class="modal-title text-warning">Roma en la actualidad</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+             <iframe width="100%" height="400"
+              src="https://www.youtube.com/embed/VWdmi1k9EBw"
+              title="Roma moderna">
+              </iframe>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <h2 class="text-center text-warning mt-5 mb-3">Contáctanos</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label class="form-label">Nombre</label>
+          <input type="text" class="form-control bg-dark text-light border-light" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control bg-dark text-light border-light" required>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Mensaje</label>
+          <textarea class="form-control bg-dark text-light border-light" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-outline-light w-100">Enviar</button>
+      </form>
+
+      <div class="text-center mt-5">
+        <a href="lugares.html" class="btn btn-outline-light">← Volver a Lugares</a>
+        <a href="index.html" class="btn btn-outline-light ms-2">Volver al inicio →</a>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-light text-center p-3 mt-5">
+      <p class="mb-0">Roma | Diana Valdivia</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

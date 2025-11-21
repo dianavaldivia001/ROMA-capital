@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html">ROMA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link" href="historia.html">Historia</a></li>
+              <li class="nav-item"><a class="nav-link" href="geografia.html">Geografía y Cultura</a></li>
+              <li class="nav-item"><a class="nav-link" href="lugares.html">Lugares Emblemáticos</a></li>
+              <li class="nav-item"><a class="nav-link" href="vida.html">Vida Actual</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section class="fondo-inicio d-flex justify-content-center align-items-center text-center">
+      <div class="overlay"></div>
+      <div class="contenido text-light p-4">
+        <h1 class="display-3 fw-bold">ROMA, ITALIA</h1>
+        <img src="roma.png" alt="Bandera de Roma" class="bandera my-3">
+        <h2 class="frase fst-italic">"La ciudad eterna, donde el pasado nunca muere"</h2>
+        <p class="intro mt-3">Roma es la capital de Italia y una de las ciudades más antiguas e influyentes del mundo. Es un centro histórico, cultural y espiritual que ha marcado la civilización occidental durante más de dos milenios.</p>
+        <a href="HISTORIA.HTML" class="btn btn-outline-light mt-4">Explora su historia y evolución</a>
+      </div>
+    </section>
+
+    <div class="container my-5">
+      <div class="alert text-center text-light" style="background-color:#1f3b5c;">
+  Roma es una de las capitales más visitadas del mundo.
+</div>
+
+
+      <div id="carruselRoma" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner rounded shadow">
+          <div class="carousel-item active">
+            <img src="https://static.booking.weekendesk.fr/image_cache/A945000/945228/945228_640_360_FSImage_1_Edit_Roma4.jpg" class="d-block w-100" alt="Coliseo">
+          </div>
+          <div class="carousel-item">
+            <img src="https://th.bing.com/th/id/R.a19d9f331164c734303d2574f5f57cc1?rik=VHajvuV2VREX3A&pid=ImgRaw&r=0" class="d-block w-100" alt="Panteón">
+          </div>
+          <div class="carousel-item">
+            <img src="https://thumbs.dreamstime.com/b/roma-ciudad-del-vaticano-42686488.jpg" class="d-block w-100" alt="Ciudad del Vaticano">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruselRoma" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruselRoma" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <footer class="bg-dark text-light text-center p-3">
+      <p class="mb-0">Roma | Diana Valdivia</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
